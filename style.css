@@ -1,0 +1,150 @@
+body{
+    margin: 0px;
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+i{
+    
+    display: inline-block;
+    
+    width: 20px;
+    height: 20px;
+    
+}
+img{
+    height: 30px;
+    border-radius: 50%;
+}
+
+.container{
+    
+    height: auto;
+    margin-left:10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    
+    color: rebeccapurple;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+ul{
+
+      width: 600px;
+      height: auto;
+      border: 2px solid pink;
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns:repeat(4,1fr);
+      justify-content: space-evenly;
+      word-wrap: break-word;
+      overflow: hidden;
+      padding-top: 10px;
+      padding-right: 10px;
+      padding-left: 10px;
+      
+}
+
+
+
+
+li{
+height:auto;
+width: 120px;
+border: 2px solid red;
+border-radius: 5px;
+
+display: flex; 
+flex-direction: column; 
+justify-content: center;
+justify-content: space-evenly;
+text-align: center;
+padding: 4px;
+background-color: rgb(226, 233, 234);
+overflow: hidden;
+}
+li:hover{
+    background-color: rgb(199, 196, 192);
+}
+
+
+h1{
+    
+    color: black;
+    font-size: 8px;
+}
+
+@media only screen and (max-width: 374px) {
+    ul{
+        grid-template-columns:repeat(2,1fr);
+    }
+  }
+
+  #grabimage{
+    width: 150px;
+    height: 150px;
+  }
+ 
+  /* #grabimage{
+    height: 150px;
+    width: 150px;
+  } */
+
+  .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .incre-decre{
+      display: flex;
+      align-items: center;
+    justify-content: space-between;
+    
+      
+  }
+  
+  #plus,#minus,#value{
+   
+     border: 1px solid green;
+     height: 18px;
+     width: 15px;
+     margin-left: 9px;
+     border-radius: 50%;
+     align-items: center;
+     text-align: center;
+     cursor: pointer;
+  } 
+   #minus:hover{
+    background-color: rgb(22, 202, 112);
+
+  }
+  #plus:hover{
+    background-color: rgb(22, 202, 112);
+
+  }
+
+  #liimage{
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 23px;
+    margin-top:15px;
+  }
+  #price{
+    font-size: 10px;
+    
+  }
